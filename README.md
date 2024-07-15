@@ -1,33 +1,12 @@
-# ethproof-assessment1
+# Starter Next/Hardhat Project
 
-This is the first assessment for ETH Proof for Metacrafters using Solidity.
+After cloning the github, you will want to do the following to get the code running on your computer.
 
-## Description
+1. Inside the project directory, in the terminal type: npm i
+2. Open two additional terminals in your VS code
+3. In the second terminal type: npx hardhat node
+4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
+5. Back in the first terminal, type npm run dev to launch the front-end.
 
-The following solidity program uses 3 built-in error-handling functions: assert(), require(), revert(). 
-
-## Getting Started
-
-### Installing and Running
-* Open [Remix IDE] (https://remix.ethereum.org/) in your local web browser.
-* Locate the folder where contracts are located. You can create a new contract by clicking the "+" icon.
-* Save the file as a .sol file
-
-* For running the file, you must first compile the solidity program file.
-* After compiling, a small but brief interface will be provided for the user to play around with.
-* Test each function to display the corresponding result.
-* Conditions should be met as per the video demonstration provided.
-
-### Front-End commands
-
-* Open Terminal then type npm i
-* Open a new terminal then type npx hardhat node
-* Open another new terminal then type npx hardhat run --network localhost scripts/deploy.js
-* Go back to the first terminal then type npm run dev
-* Go to your web browser search bar then type http://localhost:3000/
-
-## Authors
-Keith Christian M. Esteron
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+After this, the project will be running on your localhost. 
+Typically at http://localhost:3000/
